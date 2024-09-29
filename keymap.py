@@ -54,7 +54,7 @@ class KeyMapEditor(tk.Tk):
         file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.png;*.jpg;*.jpeg")])
         if file_path:
             img = Image.open(file_path)
-            img = img.resize((1920, 1080), Image.ANTIALIAS)
+            img = img.resize((1920, 1080), Image.LANCZOS)
             self.background_image = ImageTk.PhotoImage(img)
             self.render_keymap()  # Re-render to apply background image
 
