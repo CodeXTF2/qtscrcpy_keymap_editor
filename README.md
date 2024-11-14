@@ -2,7 +2,7 @@
 # KeyMap Editor for QtScrcpy
 
 
-KeyMap Editor is a Python-based tool designed to help generate and edit keymaps for [QtScrcpy](https://github.com/barry-ran/QtScrcpy), a popular GUI tool for Android screen mirroring. The editor provides a simple GUI to load, modify, and save keymap files in JSON format. The tool allows users to visually map keyboard inputs to touch controls on a 1920x1080 canvas and includes the option to import background images to assist with key alignment.
+KeyMap Editor is a Python-based tool designed to help generate and edit keymaps for [QtScrcpy](https://github.com/barry-ran/QtScrcpy), a popular GUI tool for Android screen mirroring. The editor provides a simple GUI to load, modify, and save keymap files in JSON format. The tool allows users to visually map keyboard inputs to touch controls on a ~~1920x1080~~ (**Support adaptive background image scaling**) canvas and includes the option to import background images to assist with key alignment.
 
 ## Features
 
@@ -59,4 +59,5 @@ pip install Pillow
 
 - **KMT_CLICK**: Ordinary click mapping. Simulates touch when a keyboard key is pressed.
 - **KMT_STEER_WHEEL**: Steering wheel controls (WASD). Supports left, right, up, and down directional keys for movement.
+- **More types**: [here](https://github.com/barry-ran/QtScrcpy/blob/dev/docs/KeyMapDes.md)
 
