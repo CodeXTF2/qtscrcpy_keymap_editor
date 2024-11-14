@@ -59,4 +59,5 @@ pip install Pillow
 
 - **KMT_CLICK**: Ordinary click mapping. Simulates touch when a keyboard key is pressed.
 - **KMT_STEER_WHEEL**: Steering wheel controls (WASD). Supports left, right, up, and down directional keys for movement.
+- **More types**: [here](https://github.com/barry-ran/QtScrcpy/blob/dev/docs/KeyMapDes.md)
 
